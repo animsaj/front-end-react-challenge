@@ -1,0 +1,14 @@
+.container {
+  margin-top: 50px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer button {
+  border-radius: 100%;
+}
+.username {
+  margin-bottom: 20px;
+}

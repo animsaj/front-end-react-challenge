@@ -33,8 +33,8 @@ class UserDetail extends Component {
         </Link>
         <h2 className="username">{user.username}</h2>
         <div className="row">
-          <div className="col-8">{this.renderPosts()}</div>
-          <div className="col">
+          <div className="col-12 col-md-8">{this.renderPosts()}</div>
+          <div className="col" id="sidebar">
             <button
               type="button"
               className="btn btn-light btn-block"

@@ -12,3 +12,8 @@
 .username {
   margin-bottom: 20px;
 }
+@media (max-width: 576px) {
+  #sidebar {
+    order: -1;
+  }
+}

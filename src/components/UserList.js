@@ -76,12 +76,12 @@ class UserList extends Component {
 
   renderUsers() {
     return this.state.users.map(user => (
-        <User
-          key={user.username}
-          user={user}
-          postsCount={user.posts.length}
-          commentsCount={user.commentsCount}
-        />
+      <User
+        key={user.username}
+        user={user}
+        postsCount={user.posts.length}
+        commentsCount={user.commentsCount}
+      />
     ));
   }
 
@@ -89,7 +89,7 @@ class UserList extends Component {
     return (
       <div>
         <div className="row justify-content-between">
-          <div className="col-6">
+          <div className="col-4 col-md-6">
             <button
               type="button"
               className="btn btn-light btn-block"

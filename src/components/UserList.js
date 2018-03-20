@@ -103,7 +103,7 @@ class UserList extends Component {
               )}
             </button>
           </div>
-          <div className="col">
+          <div className="col-4 col-md-3">
             <button
               type="button"
               className="btn btn-light btn-block"
@@ -117,7 +117,7 @@ class UserList extends Component {
               )}
             </button>
           </div>
-          <div className="col">
+          <div className="col-4 col-md-3">
             <button
               type="button"
               className="btn btn-light btn-block"
